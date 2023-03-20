@@ -1,0 +1,21 @@
+{
+  "name": "practice-ts",
+  "version": "1.0.0",
+  "description": "practice of ts in my pc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon --exec 'npm start'",
+    "cy:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "Ernesto Quintana Oliva",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.8.1",
+    "eslint": "^8.36.0",
+    "nodemon": "^2.0.21",
+    "request": "^2.88.2"
+  }
+}
